@@ -1,9 +1,9 @@
 # John Conway's Game of Life
 A Java project to implement Object-oriented Programming
 
-John Conway was an undergraduate at Cambridge who read Mathematics. He stayed on at Cambridge to study for a Ph.D. and afterwards as a Lecturer. Conway invented the Game of Life in 1970. You can play the Game of Life with physical game pieces (a set of stones from Go[5] are a good choice) but a computer simulation of the Game of Life allows for quicker experimentation.
+**John Conway** was an undergraduate at Cambridge who read Mathematics. He stayed on at Cambridge to study for a Ph.D. and afterwards as a Lecturer. Conway invented the **Game of Life** in 1970. You can play the Game of Life with physical game pieces (a set of stones from Go[5] are a good choice) but a computer simulation of the Game of Life allows for quicker experimentation.
 
-The game board, or world, for the Game of Life is a two-dimensional grid of square cells. Each cell in the world is in one of two states, dead or alive. The world transitions through a set of discrete generations, starting from the initial state of the cells at time zero, which is determined by the human player. The rules of the game describe how to transition from generation t to generation t+1, and are as follows: 
+The game board, or world, for the **Game of Life** is a two-dimensional grid of square cells. Each cell in the world is in one of two states, dead or alive. The world transitions through a set of discrete generations, starting from the initial state of the cells at time zero, which is determined by the human player. The rules of the game describe how to transition from generation t to generation t+1, and are as follows: 
  - a live cell with fewer than two neighbours dies (caused by underpopulation);
  - a live cell with two or three neighbours lives (representing a balanced population);
  - a live cell with with more than three neighbours dies (caused by overcrowding and starvation); and
